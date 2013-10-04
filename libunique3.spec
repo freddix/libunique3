@@ -1,7 +1,7 @@
 Summary:	Library to make sure only one instance of a program is running
 Name:		libunique3
 Version:	3.0.2
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		X11/Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libunique/3.0/libunique-%{version}.tar.xz
@@ -75,7 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libunique-3.0.so
-%{_libdir}/libunique-3.0.la
 %{_includedir}/unique-3.0
 %{_pkgconfigdir}/unique-3.0.pc
 %{_datadir}/gir-1.0/Unique-3.0.gir
